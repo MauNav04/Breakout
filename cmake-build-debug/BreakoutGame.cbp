@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug"/>
+				<Option working_dir="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug"/>
+				<Option working_dir="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug"/>
+				<Option working_dir="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BreakoutGame">
-				<Option output="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/BreakoutGame" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug"/>
+				<Option output="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/BreakoutGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 BreakoutGame"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 BreakoutGame"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BreakoutGame/fast">
-				<Option output="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/BreakoutGame" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug"/>
+				<Option output="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/BreakoutGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,41 +75,53 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 BreakoutGame/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 BreakoutGame/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mauro/Documents/Documentos\ de\ la\ U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/Ball.cpp">
+		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Ball.h">
 			<Option target="BreakoutGame"/>
 		</Unit>
-		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/Ball.h">
+		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Bar.h">
 			<Option target="BreakoutGame"/>
 		</Unit>
-		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/Headers/Board.h">
+		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Board.h">
 			<Option target="BreakoutGame"/>
 		</Unit>
-		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/Headers/Client.h">
+		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Brick.cpp">
 			<Option target="BreakoutGame"/>
 		</Unit>
-		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/Headers/Server.h">
+		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Brick.h">
 			<Option target="BreakoutGame"/>
 		</Unit>
-		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/Sources/Board.cpp">
+		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Client.h">
 			<Option target="BreakoutGame"/>
 		</Unit>
-		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/Sources/Client.cpp">
+		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Server.h">
 			<Option target="BreakoutGame"/>
 		</Unit>
-		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/Sources/Server.cpp">
+		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Ball.cpp">
 			<Option target="BreakoutGame"/>
 		</Unit>
-		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/main.cpp">
+		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Bar.cpp">
 			<Option target="BreakoutGame"/>
 		</Unit>
-		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/CMakeLists.txt">
+		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Board.cpp">
+			<Option target="BreakoutGame"/>
+		</Unit>
+		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Client.cpp">
+			<Option target="BreakoutGame"/>
+		</Unit>
+		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Server.cpp">
+			<Option target="BreakoutGame"/>
+		</Unit>
+		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/main.cpp">
+			<Option target="BreakoutGame"/>
+		</Unit>
+		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

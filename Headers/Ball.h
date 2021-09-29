@@ -7,6 +7,12 @@
 
 
 class Ball {
+public:
+    int xPos;
+    int yPos;
+
+    Ball();
+    int setPos(int newXPos, int newYPos);
 
 };
 

@@ -57,10 +57,10 @@ RM = /snap/clion/164/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame"
+CMAKE_SOURCE_DIR = "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/CMakeFiles" "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/CMakeFiles" "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,77 @@ BreakoutGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/build
 .PHONY : BreakoutGame/fast
 
-Ball.o: Ball.cpp.o
-.PHONY : Ball.o
+Headers/Brick.o: Headers/Brick.cpp.o
+.PHONY : Headers/Brick.o
 
 # target to build an object file
-Ball.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Ball.cpp.o
-.PHONY : Ball.cpp.o
+Headers/Brick.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.o
+.PHONY : Headers/Brick.cpp.o
 
-Ball.i: Ball.cpp.i
-.PHONY : Ball.i
+Headers/Brick.i: Headers/Brick.cpp.i
+.PHONY : Headers/Brick.i
 
 # target to preprocess a source file
-Ball.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Ball.cpp.i
-.PHONY : Ball.cpp.i
+Headers/Brick.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.i
+.PHONY : Headers/Brick.cpp.i
 
-Ball.s: Ball.cpp.s
-.PHONY : Ball.s
+Headers/Brick.s: Headers/Brick.cpp.s
+.PHONY : Headers/Brick.s
 
 # target to generate assembly for a file
-Ball.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Ball.cpp.s
-.PHONY : Ball.cpp.s
+Headers/Brick.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.s
+.PHONY : Headers/Brick.cpp.s
+
+Sources/Ball.o: Sources/Ball.cpp.o
+.PHONY : Sources/Ball.o
+
+# target to build an object file
+Sources/Ball.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Sources/Ball.cpp.o
+.PHONY : Sources/Ball.cpp.o
+
+Sources/Ball.i: Sources/Ball.cpp.i
+.PHONY : Sources/Ball.i
+
+# target to preprocess a source file
+Sources/Ball.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Sources/Ball.cpp.i
+.PHONY : Sources/Ball.cpp.i
+
+Sources/Ball.s: Sources/Ball.cpp.s
+.PHONY : Sources/Ball.s
+
+# target to generate assembly for a file
+Sources/Ball.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Sources/Ball.cpp.s
+.PHONY : Sources/Ball.cpp.s
+
+Sources/Bar.o: Sources/Bar.cpp.o
+.PHONY : Sources/Bar.o
+
+# target to build an object file
+Sources/Bar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Sources/Bar.cpp.o
+.PHONY : Sources/Bar.cpp.o
+
+Sources/Bar.i: Sources/Bar.cpp.i
+.PHONY : Sources/Bar.i
+
+# target to preprocess a source file
+Sources/Bar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Sources/Bar.cpp.i
+.PHONY : Sources/Bar.cpp.i
+
+Sources/Bar.s: Sources/Bar.cpp.s
+.PHONY : Sources/Bar.s
+
+# target to generate assembly for a file
+Sources/Bar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Sources/Bar.cpp.s
+.PHONY : Sources/Bar.cpp.s
 
 Sources/Board.o: Sources/Board.cpp.o
 .PHONY : Sources/Board.o
@@ -258,9 +306,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BreakoutGame"
-	@echo "... Ball.o"
-	@echo "... Ball.i"
-	@echo "... Ball.s"
+	@echo "... Headers/Brick.o"
+	@echo "... Headers/Brick.i"
+	@echo "... Headers/Brick.s"
+	@echo "... Sources/Ball.o"
+	@echo "... Sources/Ball.i"
+	@echo "... Sources/Ball.s"
+	@echo "... Sources/Bar.o"
+	@echo "... Sources/Bar.i"
+	@echo "... Sources/Bar.s"
 	@echo "... Sources/Board.o"
 	@echo "... Sources/Board.i"
 	@echo "... Sources/Board.s"

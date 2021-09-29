@@ -6,11 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/Headers/Server.h
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Ball.h
 
-/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/Sources/Server.cpp
-../Headers/Server.h
-/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/Headers/Server.h
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Board.h
+
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Client.h
+
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Server.h
+
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Ball.cpp
+../Headers/Ball.h
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Ball.h
+
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Board.cpp
+../Headers/Board.h
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Board.h
+
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Client.cpp
+../Headers/Client.h
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Client.h
 iostream
 -
 string
@@ -43,4 +57,48 @@ fcntl.h
 -
 fstream
 -
+
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Server.cpp
+../Headers/Server.h
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Server.h
+iostream
+-
+string
+-
+stdio.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+netdb.h
+-
+sys/uio.h
+-
+sys/time.h
+-
+sys/wait.h
+-
+fcntl.h
+-
+fstream
+-
+
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/main.cpp
+iostream
+-
+Headers/Client.h
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Client.h
+Headers/Server.h
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Server.h
 

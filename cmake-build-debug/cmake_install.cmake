@@ -1,4 +1,4 @@
-# Install script for directory: /home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame
+# Install script for directory: /home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
