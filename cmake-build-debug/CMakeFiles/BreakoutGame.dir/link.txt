@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/BreakoutGame.dir/main.cpp.o CMakeFiles/BreakoutGame.dir/Sources/Server.cpp.o CMakeFiles/BreakoutGame.dir/Sources/Client.cpp.o CMakeFiles/BreakoutGame.dir/Sources/Board.cpp.o CMakeFiles/BreakoutGame.dir/Ball.cpp.o -o BreakoutGame 

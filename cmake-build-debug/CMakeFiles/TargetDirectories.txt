@@ -1,0 +1,3 @@
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/BreakoutGame/cmake-build-debug/CMakeFiles/BreakoutGame.dir
