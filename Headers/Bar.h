@@ -15,6 +15,7 @@ public:
 
     Bar();
     int setPos(int newXPos);
+    int updateBarLen(int newLen);
     int switchPUState();
 };
 

@@ -6,12 +6,15 @@
 #define BREAKOUTGAME_SERVER_H
 
 
+#include "Board.h"
+
 class Server {
 public:
     int port;
     char msg[1500];
 
-    Server();
+    [[noreturn]] Server();
+    int calcBallPos(Board *board);
 };
 
 

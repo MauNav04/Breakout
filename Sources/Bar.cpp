@@ -6,7 +6,7 @@
 
 Bar::Bar() {
     this->yPos = 13;
-    this->xPos = 7;
+    this->xPos = 6;
     this->barLen = 3;
     this->powerUp = false;
 }
@@ -23,5 +23,10 @@ int Bar::switchPUState() {
     else{
         powerUp = false;
     }
+    return 0;
+}
+
+int Bar::updateBarLen(int newLen) {
+    this->barLen = newLen;
     return 0;
 }

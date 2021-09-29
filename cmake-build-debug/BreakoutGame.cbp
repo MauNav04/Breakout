@@ -91,9 +91,6 @@
 		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Board.h">
 			<Option target="BreakoutGame"/>
 		</Unit>
-		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Brick.cpp">
-			<Option target="BreakoutGame"/>
-		</Unit>
 		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Brick.h">
 			<Option target="BreakoutGame"/>
 		</Unit>
@@ -110,6 +107,9 @@
 			<Option target="BreakoutGame"/>
 		</Unit>
 		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Board.cpp">
+			<Option target="BreakoutGame"/>
+		</Unit>
+		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Brick.cpp">
 			<Option target="BreakoutGame"/>
 		</Unit>
 		<Unit filename="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Client.cpp">

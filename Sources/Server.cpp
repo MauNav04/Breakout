@@ -3,6 +3,7 @@
 //
 
 #include "../Headers/Server.h"
+#include "../Headers/Board.h"
 
 #include <iostream>
 #include <string>
@@ -25,8 +26,13 @@
 using namespace std;
 //Server side
 
-Server::Server() {
-    this->port = 2500;
+// EL server va a cerar una instacia board la
+//cual actualizará constantemente por medio de un loop
+// antes de actualizar verificará si tiene algun mensaje pendiente
+
+
+[[noreturn]] Server::Server() {
+    this->port = 8888;
     int serverSocketHandler = socket(AF_INET , SOCK_STREAM , 0);
     //creating a socket and assigning it to the socket handler
     if(serverSocketHandler < 0)
@@ -64,7 +70,7 @@ Server::Server() {
         cout << "Server accepted the request. \n" ;
     }
 
-    while(true)
+    /*while(true)
     {
         // infinite loop for chatting
         int rMsgSize;
@@ -95,5 +101,19 @@ Server::Server() {
             send(connection , input , strlen(input)+1 , 0);
         }
     }
-    close(serverSocketHandler);
+    close(serverSocketHandler);*/
+
+    Board * board = new Board();
+    board->printBoard();
+
+    for(int i=0; i<9; i++){
+        calcBallPos(board);
+        cout << board->ball.yPos;
+        //board->printBoard();
+    }
+}
+
+int Server::calcBallPos(Board *board) {
+    board->ball.yPos -= 1;
+    return 0;
 }

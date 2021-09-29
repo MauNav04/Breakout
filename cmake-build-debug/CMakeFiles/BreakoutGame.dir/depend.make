@@ -4,16 +4,33 @@
 CMakeFiles/BreakoutGame.dir/Sources/Ball.cpp.o: \
  ../Headers/Ball.h \
  ../Sources/Ball.cpp
+CMakeFiles/BreakoutGame.dir/Sources/Bar.cpp.o: \
+ ../Headers/Bar.h \
+ ../Sources/Bar.cpp
 CMakeFiles/BreakoutGame.dir/Sources/Board.cpp.o: \
+ ../Headers/Ball.h \
+ ../Headers/Bar.h \
  ../Headers/Board.h \
+ ../Headers/Brick.h \
  ../Sources/Board.cpp
+CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.o: \
+ ../Headers/Brick.h \
+ ../Sources/Brick.cpp
 CMakeFiles/BreakoutGame.dir/Sources/Client.cpp.o: \
  ../Headers/Client.h \
  ../Sources/Client.cpp
 CMakeFiles/BreakoutGame.dir/Sources/Server.cpp.o: \
+ ../Headers/Ball.h \
+ ../Headers/Bar.h \
+ ../Headers/Board.h \
+ ../Headers/Brick.h \
  ../Headers/Server.h \
  ../Sources/Server.cpp
 CMakeFiles/BreakoutGame.dir/main.cpp.o: \
+ ../Headers/Ball.h \
+ ../Headers/Bar.h \
+ ../Headers/Board.h \
+ ../Headers/Brick.h \
  ../Headers/Client.h \
  ../Headers/Server.h \
  ../main.cpp

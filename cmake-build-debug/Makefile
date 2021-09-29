@@ -129,30 +129,6 @@ BreakoutGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/build
 .PHONY : BreakoutGame/fast
 
-Headers/Brick.o: Headers/Brick.cpp.o
-.PHONY : Headers/Brick.o
-
-# target to build an object file
-Headers/Brick.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.o
-.PHONY : Headers/Brick.cpp.o
-
-Headers/Brick.i: Headers/Brick.cpp.i
-.PHONY : Headers/Brick.i
-
-# target to preprocess a source file
-Headers/Brick.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.i
-.PHONY : Headers/Brick.cpp.i
-
-Headers/Brick.s: Headers/Brick.cpp.s
-.PHONY : Headers/Brick.s
-
-# target to generate assembly for a file
-Headers/Brick.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.s
-.PHONY : Headers/Brick.cpp.s
-
 Sources/Ball.o: Sources/Ball.cpp.o
 .PHONY : Sources/Ball.o
 
@@ -224,6 +200,30 @@ Sources/Board.s: Sources/Board.cpp.s
 Sources/Board.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Sources/Board.cpp.s
 .PHONY : Sources/Board.cpp.s
+
+Sources/Brick.o: Sources/Brick.cpp.o
+.PHONY : Sources/Brick.o
+
+# target to build an object file
+Sources/Brick.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.o
+.PHONY : Sources/Brick.cpp.o
+
+Sources/Brick.i: Sources/Brick.cpp.i
+.PHONY : Sources/Brick.i
+
+# target to preprocess a source file
+Sources/Brick.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.i
+.PHONY : Sources/Brick.cpp.i
+
+Sources/Brick.s: Sources/Brick.cpp.s
+.PHONY : Sources/Brick.s
+
+# target to generate assembly for a file
+Sources/Brick.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BreakoutGame.dir/build.make CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.s
+.PHONY : Sources/Brick.cpp.s
 
 Sources/Client.o: Sources/Client.cpp.o
 .PHONY : Sources/Client.o
@@ -306,9 +306,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BreakoutGame"
-	@echo "... Headers/Brick.o"
-	@echo "... Headers/Brick.i"
-	@echo "... Headers/Brick.s"
 	@echo "... Sources/Ball.o"
 	@echo "... Sources/Ball.i"
 	@echo "... Sources/Ball.s"
@@ -318,6 +315,9 @@ help:
 	@echo "... Sources/Board.o"
 	@echo "... Sources/Board.i"
 	@echo "... Sources/Board.s"
+	@echo "... Sources/Brick.o"
+	@echo "... Sources/Brick.i"
+	@echo "... Sources/Brick.s"
 	@echo "... Sources/Client.o"
 	@echo "... Sources/Client.i"
 	@echo "... Sources/Client.s"

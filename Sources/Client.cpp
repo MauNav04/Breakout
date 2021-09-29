@@ -24,7 +24,7 @@
 using namespace std;
 //Client side
 Client::Client() {
-    this->port = 2500;
+    this->port = 8888;
     this->serverIp = "localhost";
     int clientSocket , serverSocket , receiveMsgSize;
     clientSocket = socket(AF_INET , SOCK_STREAM , 0);

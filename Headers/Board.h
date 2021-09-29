@@ -16,7 +16,7 @@ public:
     int boardMatrix[15][15];
     Bar bar;
     Ball ball;
-    Brick bricks[35];
+    //Brick bricks[35];
     bool inGame;
 
     Board(); // ponga bola y barra en una posición, llena lista de bricks y los coloca en una posicion
@@ -24,6 +24,7 @@ public:
     int updateBoard(); // Actualiza el tablero (posicion de la bola y si choca en algùn bloque)
     int clearBoard();
     int updateBar(); //Actualiza la posicion de la barra
+    void printBoard();
 
 };
 

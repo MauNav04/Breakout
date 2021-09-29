@@ -144,18 +144,18 @@ CMakeFiles/BreakoutGame.dir/Sources/Bar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BreakoutGame.dir/Sources/Bar.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Bar.cpp" -o CMakeFiles/BreakoutGame.dir/Sources/Bar.cpp.s
 
-CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.o: CMakeFiles/BreakoutGame.dir/flags.make
-CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.o: ../Headers/Brick.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.o -c "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Brick.cpp"
+CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.o: CMakeFiles/BreakoutGame.dir/flags.make
+CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.o: ../Sources/Brick.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.o -c "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Brick.cpp"
 
-CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Brick.cpp" > CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.i
+CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Brick.cpp" > CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.i
 
-CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Brick.cpp" -o CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.s
+CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Brick.cpp" -o CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.s
 
 # Object files for target BreakoutGame
 BreakoutGame_OBJECTS = \
@@ -165,7 +165,7 @@ BreakoutGame_OBJECTS = \
 "CMakeFiles/BreakoutGame.dir/Sources/Board.cpp.o" \
 "CMakeFiles/BreakoutGame.dir/Sources/Ball.cpp.o" \
 "CMakeFiles/BreakoutGame.dir/Sources/Bar.cpp.o" \
-"CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.o"
+"CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.o"
 
 # External object files for target BreakoutGame
 BreakoutGame_EXTERNAL_OBJECTS =
@@ -176,7 +176,7 @@ BreakoutGame: CMakeFiles/BreakoutGame.dir/Sources/Client.cpp.o
 BreakoutGame: CMakeFiles/BreakoutGame.dir/Sources/Board.cpp.o
 BreakoutGame: CMakeFiles/BreakoutGame.dir/Sources/Ball.cpp.o
 BreakoutGame: CMakeFiles/BreakoutGame.dir/Sources/Bar.cpp.o
-BreakoutGame: CMakeFiles/BreakoutGame.dir/Headers/Brick.cpp.o
+BreakoutGame: CMakeFiles/BreakoutGame.dir/Sources/Brick.cpp.o
 BreakoutGame: CMakeFiles/BreakoutGame.dir/build.make
 BreakoutGame: CMakeFiles/BreakoutGame.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable BreakoutGame"
