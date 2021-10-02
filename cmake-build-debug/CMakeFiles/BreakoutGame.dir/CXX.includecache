@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Ball.h
+tuple
+-
 
 /home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Bar.h
 
@@ -22,9 +24,23 @@ Brick.h
 
 /home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Brick.h
 
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Client.h
+
 /home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Server.h
 Board.h
 /home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Board.h
+
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Ball.cpp
+random
+-
+../Headers/Ball.h
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Ball.h
+
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Board.cpp
+../Headers/Board.h
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Board.h
+iostream
+-
 
 /home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Server.cpp
 ../Headers/Server.h
@@ -63,4 +79,12 @@ fcntl.h
 -
 fstream
 -
+
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/main.cpp
+iostream
+-
+Headers/Client.h
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Client.h
+Headers/Server.h
+/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Server.h
 

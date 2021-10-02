@@ -4,7 +4,8 @@
 using namespace std;
 
 int main() {
-    string data;
+    // Test creating the server directly
+    /*string data;
     cout << "Please Type S for server or C for Client:" << endl;
     getline(cin, data);
     if(data == "S")
@@ -15,5 +16,15 @@ int main() {
     else{
         cout << "Initiating Client..." << endl;
         Client();
+    }*/
+
+    // Testing Board Functions
+    Board * board =  new Board();
+    board->printBoard();
+
+    for(int i = 0; i < 10 ; i++){
+        board->updateBoard();
+        board->printBoard();
     }
+
 }

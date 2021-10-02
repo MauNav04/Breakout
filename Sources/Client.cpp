@@ -45,7 +45,7 @@ Client::Client() {
         cout << "\t\tConnection Established..." << endl;
     }
 
-    while(true)
+    /*while(true)
     {
         string s;
         char input[MAX];
@@ -75,6 +75,6 @@ Client::Client() {
             break;
         }
         cout << "received server : " << receiveMessage <<endl;
-    }
+    }*/
     close(clientSocket);
 }

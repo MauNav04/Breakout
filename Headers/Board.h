@@ -22,6 +22,8 @@ public:
     Board(); // ponga bola y barra en una posición, llena lista de bricks y los coloca en una posicion
     void getBoard(); // Obtiene el tablero en su estado actual
     int updateBoard(); // Actualiza el tablero (posicion de la bola y si choca en algùn bloque)
+    void moveBall(int newYpos, int newXpos);
+    void changeMovementCase(int direction, int Angle);
     int clearBoard();
     int updateBar(); //Actualiza la posicion de la barra
     void printBoard();
