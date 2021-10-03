@@ -125,11 +125,11 @@ void Board::moveBall(int newYpos, int newXpos) {
     this->boardMatrix[this->ball.yPos][this->ball.xPos] = 2;
 }
 
-void Board::changeMovementCase(int caseType) {
+void Board::changeMovementCase(int caseType){
     if(caseType == 0){
         this->ball.firstHorizontalBump();
     }
-    if(caseType == 1 || )
+    if(caseType == 1 ){}
 }
 
 int Board::clearBoard() {
