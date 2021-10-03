@@ -23,7 +23,8 @@ public:
     void getBoard(); // Obtiene el tablero en su estado actual
     int updateBoard(); // Actualiza el tablero (posicion de la bola y si choca en algùn bloque)
     void moveBall(int newYpos, int newXpos);
-    void changeMovementCase(int direction, int Angle);
+    void changeMovementCase(int caseType, int side); //(0:H , 1:V)
+    bool isEmpty(int caseType);
     int clearBoard();
     int updateBar(); //Actualiza la posicion de la barra
     void printBoard();

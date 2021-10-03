@@ -30,12 +30,6 @@ Brick.h
 Board.h
 /home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Board.h
 
-/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Ball.cpp
-random
--
-../Headers/Ball.h
-/home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Ball.h
-
 /home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Sources/Board.cpp
 ../Headers/Board.h
 /home/mauro/Documents/Documentos de la U/Semestre2-2021/Datos2/Proyecto1/Breakout/Headers/Board.h

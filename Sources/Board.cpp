@@ -27,18 +27,96 @@ void Board::getBoard() {
 //Verificará si la bola está chocando con un borde horizontal o vertical de la pantalla o
 //con un bloque de manera horizontal o vertical o con la barra
 int Board::updateBoard() {
-    //Golpe inicial - D:Arriba A:Directo - Stat: No choca
-    if (this->ball.angle == 0 && this->boardMatrix[this->ball.yPos-1][this->ball.xPos] == 0){
-        this->moveBall(this->ball.yPos-1,this->ball.xPos);
-    }
-    else{
-        if (this->ball.angle == 0 && this->boardMatrix[this->ball.yPos-1][this->ball.xPos] != 0){
-            this->changeMovementCase(this->ball.direction, this->ball.angle);
-            this->moveBall(0, 7);
+    //Golpe inicial - D:Arriba A:Directo
+    if (this->ball.angle == 0) {
+        //Stat: No choca
+        if (isEmpty(0)) {
+            this->moveBall(this->ball.yPos - 1, this->ball.xPos);
+        } else { //Stat: choca
+            this->changeMovementCase(0,0);
+            this->updateBoard();
         }
     }
+    else{
+        int tempBallPos[2];
+        // verifications for first case (0,1)
+        if(this->ball.direction == 0 && this->ball.angle == 1 ){
+            // check if ball bumps with a border
+            bool conditionY = this->ball.yPos + 1 > 14;
+            bool conditionX = this->ball.xPos -1 < 0;
+            if(conditionY or conditionX){
+                if(conditionY){
+                    moveBall(14,7);
+                    cout << "El juego ha terminado" << endl;
+                }
+                else{
+                    if (boardMatrix[tempBallPos[0]][this->ball.xPos] == 0) {
+                        this->ball.verticalBump();
+                    } else {
+                        this->ball.horizontalBump();
+                    }
+                }
 
+            }
+            else{
+
+            }
+            if(isEmpty(1)){
+                this->moveBall(this->ball.yPos + 1, this->ball.xPos -1);
+            }
+            else{
+                if(this->ball.angle == 1 && !isEmpty(1)){
+                    this->moveBall(this->ball.yPos + 1, this->ball.xPos -1);
+                }
+            }
+        }
+    }
     return 0;
+}
+
+bool Board::isEmpty(int caseType) {
+    if(caseType == 0 ){
+        if(this->boardMatrix[this->ball.yPos -1][this->ball.xPos] == 0){
+            return true;}
+        else{
+            return false;}
+    }
+    else{
+        if(caseType == 1){
+            if(this->boardMatrix[this->ball.yPos +1][this->ball.xPos -1] == 0){
+                return true;}
+            else{
+                return false;}
+        }
+        else {
+            if (caseType == 2) {
+                if (this->boardMatrix[this->ball.yPos +1][this->ball.xPos +1] == 0) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            else {
+                if (caseType == 3) {
+                    if (this->boardMatrix[this->ball.yPos -1][this->ball.xPos -1] == 0) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                }
+                else {
+                    if (caseType == 4) {
+                        if (this->boardMatrix[this->ball.yPos -1][this->ball.xPos +1] == 0) {
+                            return true;
+                        } else {
+                            return false;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return false;
 }
 
 void Board::moveBall(int newYpos, int newXpos) {
@@ -47,10 +125,11 @@ void Board::moveBall(int newYpos, int newXpos) {
     this->boardMatrix[this->ball.yPos][this->ball.xPos] = 2;
 }
 
-void Board::changeMovementCase(int direction, int Angle) {
-    if(Angle == 0){
+void Board::changeMovementCase(int caseType) {
+    if(caseType == 0){
         this->ball.firstHorizontalBump();
     }
+    if(caseType == 1 || )
 }
 
 int Board::clearBoard() {
@@ -75,3 +154,5 @@ void Board::printBoard() {
 
     cout << ballPosY << " , " << ballPosX << endl;
 }
+
+

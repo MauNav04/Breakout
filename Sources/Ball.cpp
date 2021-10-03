@@ -60,7 +60,12 @@ int Ball::switchDirection() {
 }
 
 int Ball::switchAngle() {
-    return 0;
+    if(this->angle == 1){
+        return 2;
+    }
+    else{if(this->angle == 2){
+            return 1;
+        }}
 }
 
 
